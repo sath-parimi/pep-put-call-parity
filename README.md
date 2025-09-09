@@ -10,17 +10,17 @@ This project demonstrates how put–call parity links theoretical Black–Schole
 - Findings: Most observed deviations were within the bid–ask band, consistent with transaction costs; out-of-band cases were tied to illiquid strikes or after-hours quotes
 
 # Tools & Packages
-- Python & Colab
-- yfinance
-- pandas
-- numpy
-- matplotlib
-- scipy.stats
+- `Python & Colab`
+- `yfinance`
+- `pandas`
+- `numpy`
+- `matplotlib`
+- `scipy.stats`
 
 # Project Structure
-- pep_put_call_parity.ipynb: Main notebook with full analysis (stock context, theoretical parity, market parity)
-- artifacts/: Folder containing saved CSV tables and plots for both theoretical and market parity
-- README.md: Project overview
+- `pep_put_call_parity.ipynb`: Main notebook with full analysis (stock context, theoretical parity, market parity)
+- `artifacts/`: Folder containing saved CSV tables and plots for both theoretical and market parity
+- `README.md`: Project overview
 
 # Results
 The theoretical analysis confirmed put–call parity under Black–Scholes with dividends. Market data showed that real-world deviations generally remained within bid–ask bounds, supporting efficient market behavior once transaction costs were considered.
