@@ -1,13 +1,14 @@
-# Put–Call Parity on Pepsi (PEP)
-This project demonstrates how put–call parity links theoretical Black–Scholes prices to market option quotes. Using Pepsi (PEP) as the underlying stock, the analysis combined historical price context, theoretical verification under the Black–Scholes model with dividends, and real market option chain data retrieved from Yahoo Finance.
+# Empirical Analysis of Put–Call Parity on PepsiCo Options
+
+This project demonstrates how put–call parity links theoretical Black–Scholes prices to market option quotes. Using PepsiCo (PEP) as the underlying stock, the analysis combines historical price context, theoretical verification under the Black–Scholes model with dividends, and real market option chain data retrieved from Yahoo Finance.
 
 ## Summary
-- Data Source: Yahoo Finance (PEP stock prices and option chains)
-- As-of Date: March 14, 2025
-- Expiry Analyzed: April 17, 2025
-- Theoretical Analysis: Verified that $C - P = S e^{-qT} - K e^{-rT}$ holds under Black–Scholes pricing across a strike grid
-- Market Analysis: Computed $C_{\text{mid}} - P_{\text{mid}}$ from option chain mid quotes and compared against the theoretical RHS with a bid–ask band
-- Findings: Most observed deviations were within the bid–ask band, consistent with transaction costs; out-of-band cases were tied to illiquid strikes or after-hours quotes
+- **Data Source:** Yahoo Finance (PEP stock prices and option chains)  
+- **As-of Date:** March 14, 2025  
+- **Expiry Analyzed:** April 17, 2025  
+- **Theoretical Analysis:** Verified that $C - P = S e^{-qT} - K e^{-rT}$ holds under Black–Scholes pricing across a strike grid  
+- **Market Analysis:** Computed $C_{\text{mid}} - P_{\text{mid}}$ from option chain mid quotes and compared against the theoretical RHS with a bid–ask band  
+- **Findings:** Theoretical parity held up to numerical precision. Market deviations were generally within bid–ask bounds, consistent with transaction costs. Out-of-band cases were tied to illiquid strikes or after-hours quotes.
 
 ## Tools & Packages
 - Python & Colab
