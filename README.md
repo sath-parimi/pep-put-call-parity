@@ -38,9 +38,8 @@ To reproduce this project:
 5. Update financial parameters `r` (risk–free rate) and `q` (dividend yield) as needed.
 6. Run all cells to generate plots and tables.
 
-## View Project Deliverables
+## View Project Deliverable
 - [Full PepsiCo Analysis Report (HTML)](https://sath-parimi.github.io/pep-put-call-parity/pep_put_call_parity.html): Full report including code, plots, and commentary
-- [Generic Notebook (IPYNB)](put_call_parity.ipynb): Reusable framework with guidance for any stock 
 
 # Author
 Sathvika Parimi  
