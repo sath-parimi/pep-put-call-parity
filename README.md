@@ -40,7 +40,7 @@ To reproduce this project:
 
 ## View Project Deliverables
 - [Full PepsiCo Analysis Report (HTML)](https://sath-parimi.github.io/pep-put-call-parity/pep_put_call_parity.html): Full report including code, plots, and commentary
-- [Generic Notebook (IPYNB)](https://sath-parimi.github.io/pep-put-call-parity/put_call_parity.ipynb): Reusable framework with guidance for any stock 
+- [Generic Notebook (IPYNB)](put_call_parity.ipynb): Reusable framework with guidance for any stock 
 
 # Author
 Sathvika Parimi  
