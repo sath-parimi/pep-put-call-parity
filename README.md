@@ -6,7 +6,7 @@ This project demonstrates and tests the put–call parity relationship using Pep
 - **Data Source:** Yahoo Finance (PEP stock prices and option chains)  
 - **As-of Date:** September 11, 2025  
 - **Expiry Analyzed:** September 12, 2025  
-- **Theoretical Analysis:** Verified that $C - P = S e^{-qT} - K e^{-rT}$ holds under Black–Scholes with dividends, to numerical precision (~1e-14). 
+- **Theoretical Analysis:** Verified that put-call parity ($C - P = S e^{-qT} - K e^{-rT}$) holds under Black–Scholes with dividends, to numerical precision (~$10^{-14}$). 
 - **Market Analysis:** Compared mid–quote values of calls and puts against theoretical parity, with deviations bounded by bid–ask spreads.
 - **Findings:** 
   - Theoretical parity holds exactly (machine precision).  
